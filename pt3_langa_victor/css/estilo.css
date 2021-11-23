@@ -1,1 +1,46 @@
+body {
+    background-color: rgb(232, 240, 230);
+}
+
+nav {
+    background-color: rgb(49, 44, 44);
+    text-align: center;
+    margin-top: 5%;
+}
+
+#menu {
+    display: inline-block;
+    margin: 5% 5%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+
+/* Format dels links */
+
+a.one:link {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: Arial;
+}
+
+a.one:visited {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+a.one:hover {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+a.one:active {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
 
