@@ -2,10 +2,19 @@ body {
     background-color: rgb(232, 240, 230);
 }
 
+header {
+    margin-top: 2%;
+    
+}
+
 nav {
-    background-color: rgb(49, 44, 44);
+    background: linear-gradient(to bottom,  rgba(45, 185, 139, 0.5), rgba(21, 121, 87, 0.7) 15%, rgba(21, 121, 87, 0.7) 85%, rgba(45, 185, 139, 0.5));
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
+    padding: 15px;
+    margin-bottom: 2%;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
 }
 
 #menu {
@@ -13,6 +22,33 @@ nav {
     margin: 5% 5%;
     margin-top: 3px;
     margin-bottom: 3px;
+}
+
+article {
+    display: inline-block;
+    width: 25%;
+    margin: 1%;
+    padding: 1%;
+    background-color: rgba(22, 197, 139, 0.5);
+    border: black 1px solid;
+    transition: transform 250ms;
+}
+
+article:hover {
+    background-color: rgb(22, 197, 139, 0.7);
+    transform: scale(1.1);
+}
+
+#fecha {
+    text-align: center;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#descripcion {
+    text-align: justify;
 }
 
 
@@ -28,19 +64,45 @@ a.one:link {
 a.one:visited {
     text-decoration: none;
     color: white;
-    font-size: larger;
+    font-size: large;
 }
 
 a.one:hover {
     text-decoration: none;
     color: white;
-    font-size: larger;
+    font-size: large;
     font-weight: bold;
 }
 
 a.one:active {
     text-decoration: none;
     color: white;
+    font-size: large;
+}
+
+a.two:link {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: Arial;
+}
+
+a.two:visited {
+    text-decoration: none;
+    color: black;
     font-size: larger;
 }
 
+a.two:hover {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.6);
+}
+
+a.two:active {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
