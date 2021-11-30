@@ -224,3 +224,18 @@ form {
 textarea:focus,input:focus {
     background-color: beige;
 }
+
+.receta {
+    display: block;
+    width: 50%;
+    height: 120px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.data-list {
+    display: inline-block;
+    margin-left: 10%;
+    font-family: DejaVu Sans Mono, monospace;
+    color: black;
+}
