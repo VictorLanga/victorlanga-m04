@@ -43,5 +43,58 @@
 	</header>
 
 	<h1>SITIO EN CONSTRUCCIÓN</h1>
-	<p>Contacto</p>
+	<p>Contacto (las respuestas no se envían a ningún lado)</p>
+
+	<form>
+		<div class="datos-personales">
+			<div class="formulario">
+				<label>Nombre:</label>
+				<input type="text">
+			</div>
+			<div class="formulario">
+				<label>Edad:</label>
+				<input type="number">
+			</div>
+			<div class="formulario">
+				<label>E-mail:</label>
+				<input type="email">
+			</div>
+		</div>
+		<div class="mensaje">
+			<div class="formulario">
+				<label>Tipo de mensaje:</label>
+					<div>
+						<input type="radio" name="tipo-mensaje" value="peticion">
+						<label>Petición</label><br>
+						<input type="radio" name="tipo-mensaje" value="buscar-consejo">
+						<label>Buscar consejo</label><br>
+						<input type="radio" name="tipo-mensaje" value="otros">
+						<label>Otros</label>
+					</div>
+			</div>
+			<div class="formulario">
+				<label>Mensaje:</label>
+				<textarea cols="30" rows="5"></textarea>
+			</div>
+			<div class="formulario">
+				<label>Experiencia cocinando:</label>
+				<select>
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+				</select>
+			</div>
+		</div>
+		<div class="formulario">
+			<input type="submit">
+		</div>
+	</form>
 </body>

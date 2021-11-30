@@ -141,8 +141,6 @@ footer {
     border-bottom: black 1px solid;
 }
 
-/* Format dels links */
-
 a.one:link {
     text-decoration: none;
     color: white;
@@ -195,4 +193,34 @@ a.two:active {
     text-decoration: none;
     color: black;
     font-size: larger;
+}
+
+form {
+    margin-left: 10%;
+    margin-right: 60%;
+    padding: 2%;
+    background-color: rgb(188, 212, 182);
+    border: 1px black solid;
+    border-radius: 7%;
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+.formulario {
+    padding: 2%;
+}
+
+.datos-personales {
+    background-color: rgba(204, 188, 135, 0.7);
+    border-radius: 7%;
+}
+
+.mensaje {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(156, 140, 88, 0.7);
+    border-radius: 7%;
+}
+
+textarea:focus,input:focus {
+    background-color: beige;
 }
