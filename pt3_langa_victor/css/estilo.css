@@ -239,3 +239,24 @@ textarea:focus,input:focus {
     font-family: DejaVu Sans Mono, monospace;
     color: black;
 }
+
+.intro-receta {
+    width: 70%;
+    margin-left: 10%;
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+.ingredientes {
+    float: right;
+    margin-right: 10%;
+    margin-top: 2%;
+    font-size: smaller;
+}
+
+li {
+    font-family: DejaVu Sans Mono, monospace;
+    padding: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
