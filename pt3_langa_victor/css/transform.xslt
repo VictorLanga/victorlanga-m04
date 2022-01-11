@@ -5,11 +5,35 @@
     <html>
         <head>
             <meta charset="utf-8" />
-            <link rel="stylesheet" href="/estilo.css" />
+            <link rel="stylesheet" href="../css/estilo.css" />
             <title> Recipe1 - El Delicioso by Victor</title>
         </head>
 
         <body>
+            <aside class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-back">
+                        <a href="../otros/concurso.html" ><img width="45%" height="80%" src="../imagenes/concurso.jpg"/></a>
+                        <p><br/>Click en la imagen para más información</p>
+                    </div>
+                    <div class="flip-card-front">
+                        <p>Nuevo concurso</p>
+                        <p id="participa">PARTICIPA AQUÍ!</p>
+                    </div>
+                </div>
+            </aside>
+
+            <header>
+                <center><img class="logo" width="375px" height="111px" alt="Logo página" src="../imagenes/Logo-Delicias.png"/></center>
+                <nav>
+                    <section id="menu"><a class="one" href="../index.html">Inicio</a></section>
+                    <section id="menu"><a class="one" href="../otros/sobre_mi.html">Sobre mí</a></section>
+                    <section id="menu"><a class="one" href="../listado/listado.html">Recetas</a></section>
+                    <section id="menu"><a class="one" href="../contacto/contacto.html">Contacto</a></section>
+                    <section id="menu"><a class="one" href="../otros/otras_cosas.html">Otras cosas</a></section>
+                </nav>
+            </header>
+
             <article class="intro-receta">
                 <h1><xsl:value-of select="recipe/title"/></h1>
                 <aside class="ingredientes">
@@ -25,9 +49,21 @@
             <h3>Pasos:</h3>
             <xsl:for-each select="recipe/steps/step">
             <ol>	
-                <li><xsl:value-of select="description"/></li>
+                <li>
+                    <xsl:value-of select="description"/>
+                </li>
             </ol>
             </xsl:for-each>
+
+            <footer>
+                <pre id="menu">Facebook</pre>
+                <pre id="menu">Twitter</pre>
+                <pre id="menu">Instagram</pre>
+                <pre id="menu">Pinterest</pre>
+                <pre id="menu">Email</pre>
+                <pre id="menu">RSS</pre>
+            </footer>
+
         </body>
     </html>
 </xsl:template>
