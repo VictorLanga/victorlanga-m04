@@ -34,26 +34,37 @@
                 </nav>
             </header>
 
-            <article class="intro-receta">
-                <h1><xsl:value-of select="recipe/title"/></h1>
-                <aside class="ingredientes">
-                    <xsl:for-each select="recipe/ingredients/ingredient">
-                    <li>
-                        <xsl:value-of select="name"/>
-                        <xsl:value-of select="quantity"/>
-                    </li>
-                    </xsl:for-each>
-                </aside>
-            </article>
-
-            <h3>Pasos:</h3>
-            <xsl:for-each select="recipe/steps/step">
-            <ol>	
-                <li>
-                    <xsl:value-of select="description"/>
-                </li>
+            <ol>
+                <xsl:for-each select="recipes/recipe">
+                    <li><xsl:value-of select="title"/></li>
+                </xsl:for-each>
             </ol>
+            
+            <xsl:for-each select="recipes/recipe">
+                <hr/>
+                <article class="intro-receta">
+                    <h1><xsl:value-of select="title"/></h1>
+                    <aside class="ingredientes">
+                        <xsl:for-each select="ingredients/ingredient">
+                        <li>
+                            <xsl:value-of select="name"/>
+                            <xsl:value-of select="quantity"/>
+                        </li>
+                        </xsl:for-each>
+                    </aside>
+                </article>
+
+                <h3>Pasos:</h3>
+                <xsl:for-each select="steps/step">
+                <ol>	
+                    <li>
+                        <xsl:value-of select="description"/>
+                    </li>
+                </ol>
+                </xsl:for-each>
             </xsl:for-each>
+
+
 
             <footer>
                 <pre id="menu">Facebook</pre>
