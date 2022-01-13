@@ -44,7 +44,8 @@
                 <hr id="{title}"/>
                 <article class="intro-receta">
                     <h1><xsl:value-of select="title"/></h1>
-                    <aside class="ingredientes">
+                    <img height="40%" width="40%" src="../imagenes/{imagen}"/>
+                    <aside class="ingredientes" style="margin-left:10%;">
                         <xsl:for-each select="ingredients/ingredient">
                         <li>
                             <xsl:value-of select="name"/>

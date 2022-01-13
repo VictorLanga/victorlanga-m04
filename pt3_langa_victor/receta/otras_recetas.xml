@@ -3,74 +3,260 @@
 
 <recipes>
     <recipe>
-        <title>Recipe title</title>
+        <title>Porridge de arroz y avena</title>
+        <imagen>porridge-de-arroz-y-avena.jpg</imagen>
         <ingredients>
             <ingredient>
-                <name>Ingredient</name>
-                <quantity>Quantity</quantity>
+                <name>Arroz</name>
+                <quantity></quantity>
             </ingredient>
             <ingredient>
-                <name>Ingredient</name>
-                <quantity>Quantity</quantity>
+                <name>Avena</name>
+                <quantity></quantity>
             </ingredient>
             <ingredient>
-                <name>Ingredient</name>
-                <quantity>Quantity</quantity>
+                <name>Leche de arroz</name>
+                <quantity></quantity>
             </ingredient>
             <ingredient>
-                <name>Ingredient</name>
-                <quantity>Quantity</quantity>
+                <name>Vainilla</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>Frutos rojos</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>Toppings</name>
+                <quantity></quantity>
             </ingredient>
         </ingredients>
         <steps>
             <step>
-                <description>Step</description>
+                <description>Primero, echa todos los ingredientes del porridge en un cazo, y llévalo a ebullición. Luego baja el fuego y sigue cociendo a fuego bajo, removiendo de vez en cuando durante unos 8 minutos, o hasta que la mezcla empiece a espesar.</description>
             </step>
             <step>
-                <description>Step</description>
+                <description>Añade un poco más de leche vegetal al final si quieres, la compota de frutos rojos por encima, y decora con los toppings que más te gusten.</description>
             </step>
             <step>
-                <description>Step</description>
+                <description>Para preparar la compota, echa los frutos rojos y la panela en un cazo, y cuece a fuego bajo hasta que los frutos se deshagan por completo. Guarda la que te sobre en un frasco hermético en la nevera, para usar sobre yogur, tostadas o lo que más te guste.</description>
             </step>
             <step>
-                <description>Step</description>
+                <description>Sirve el porridge caliente o templado.</description>
             </step>
         </steps>
     </recipe>
 
-
     <recipe>
-        <title>Recipe titleeeeeee</title>
+        <title>Chili sin carne</title>
+        <imagen>chili-sin-carne-vegano.jpg</imagen>
         <ingredients>
             <ingredient>
-                <name>1</name>
-                <quantity>1</quantity>
+                <name>Judías rojas o frijoles</name>
+                <quantity></quantity>
             </ingredient>
             <ingredient>
-                <name>Ingredient</name>
-                <quantity>Quantity</quantity>
+                <name>Soja texturizada</name>
+                <quantity></quantity>
             </ingredient>
             <ingredient>
-                <name>Ingredient</name>
-                <quantity>Quantity</quantity>
+                <name>Pimiento rojo y verde</name>
+                <quantity></quantity>
             </ingredient>
             <ingredient>
-                <name>Ingredient</name>
-                <quantity>Quantity</quantity>
+                <name>Champiñones</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>Ajo y mezcla de especias</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>Maíz cocido</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>Caldo vegetal</name>
+                <quantity></quantity>
             </ingredient>
         </ingredients>
         <steps>
             <step>
-                <description>Step</description>
+                <description>Antes de empezar habrás puesto en remojo las judías toda la noche con una tira de alga kombu. A la mañana siguiente cuécelas en abundante agua, junto con el trozo de alga, hasta que estén tiernas (unas dos horas).</description>
             </step>
             <step>
-                <description>Step</description>
+                <description>Pon la soja en un recipiente y cúbrela con el doble de agua caliente para que se hidrate (unos 10 o 15 minutos).</description>
             </step>
             <step>
-                <description>Step</description>
+                <description>Echa ahora el aceite en la olla</description>
             </step>
             <step>
-                <description>Step</description>
+                <description>Añade los ajos prensados, remueve e incorpora los champiñones laminados o troceados. Cuando esté todo tierno, añade la soja bien escurrida y las especias.</description>
+            </step>
+            <step>
+                <description>Incorpora el tomate triturado y el azúcar. Deja que se haga durante unos 5 minutos e incorpora el caldo. Deja cocer, removiendo de vez en cuando unos 10 minutos más.</description>
+            </step>
+            <step>
+                <description>Añade las judías y el maíz, remueve y rectifica de sal, especias o de líquido. (Si vemos que está un poco seco, añade un poco más de caldo o incluso un poquito de salsa de tomate, si la tienes preparada, para que quede un guiso bien jugoso).</description>
+            </step>
+            <step>
+                <description>Para servirlo, echa un chorrito de zumo de lima, y decora con cilantro fresco, un poco de guacamole o aguacate machacado con limón y sal, un poco de crema agria o nata agria, yogur, o unas tiritas de queso tipo cheddar (vegetal, si quieres que la receta sea vegana). Yo lo he acompañado con un poquito de arroz.</description>
+            </step>
+        </steps>
+    </recipe>
+
+    <recipe>
+        <title>Tarta salada de patata con tofu ahumado</title>
+        <imagen>tarta-salada-de-patata-vegana-con-tofu-ahumado.jpg</imagen>
+        <ingredients>
+            <ingredient>
+                <name>Patatas</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>Tofu ahumado</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>Cebolla</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>Tomate triturado</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>Vino blanco</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>Nata vegetal</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>Hierbas provenzales</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>Aceite de oliva virgen</name>
+                <quantity></quantity>
+            </ingredient>
+        </ingredients>
+        <steps>
+            <step>
+                <description>Primero haz el relleno. Echa 2 cucharadas de aceite en una sartén, y cuando esté caliente, añade la cebolla picada fina y un poco de sal. Cuando esté transparente incorpora el tomate triturado y el tofu desmenuzado.</description>
+            </step>
+            <step>
+                <description>Pasados 5 minutos, añade las hierbas y el vino, y sigue con la cocción del relleno otros 5 minutos más a fuego medio para que el alcohol se evapore. </description>
+            </step>
+            <step>
+                <description>Forra con papel de hornear la base de un molde desmoldable de 20cm. Pela las patatas, hazlas láminas finas con una mandolina, y échalas en un bol con un poco de sal, y las otras 2 cucharadas del aceite. Luego cubre las paredes y la base con la mitad o algo más de las patatas ya laminadas.</description>
+            </step>
+            <step>
+                <description>Echa el sofrito de tofu y cúbrelo con tan solo 60ml de la nata vegetal. Retira el líquido que han soltado las patatas del bol, añádeles los 40ml de nata restantes, y cubre la mezcla de tofu con ellas de manera que queden bien repartidas, y el relleno cubierto.</description>
+            </step>
+            <step>
+                <description>Decora con un poco de tomillo, y hornea a 180ºC durante unos 40min, o hasta que empiece a dorarse.</description>
+            </step>
+            <step>
+                <description>Cuando esté, sácala del horno y déjala enfríar un poco. Pincela su superficie con un poco de aceite de oliva virgen extra, y decora con semillas de granada.</description>
+            </step>
+        </steps>
+    </recipe>
+
+    <recipe>
+        <title>Buddha Bowl o Bol de Buda</title>
+        <imagen>Como-hacer-un-Buddha-bowl-o-Bol-de-Buddha.jpg</imagen>
+        <ingredients>
+            <ingredient>
+                <name>2 puñados de hojas verdes o mezclum</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>1 taza de mijo cocido</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>1 taza de brotes de soja salteados en aceite de sésamo </name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>salsa de soja</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>½ berenjena asada (en rodajas)</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>½ aguacate cortado a lo largo</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>¾ taza de humus de remolacha</name>
+                <quantity></quantity>
+            </ingredient>
+        </ingredients>
+        <steps>
+            <step>
+                <description>Para hacer este Buddha Bowl, primero debemos tener cocido el mijo (1 volumen de mijo por casi 3 de agua).</description>
+            </step>
+            <step>
+                <description>Para empezar el bol, he puesto una base de hojas verdes o mezclum (unos 2 puñados). </description>
+            </step>
+            <step>
+                <description>He añadido el mijo cocido a un lado.</description>
+            </step>
+            <step>
+                <description>He salteado los brotes de soja en aceite de sésamo y cuando ya casi estaban he añadido unas gotas de salsa de soja y he continuado salteando unos 2 minutos más. Los he añadido al lado del mijo cocido.</description>
+            </step>
+            <step>
+                <description>Después he añadido ½ berenjena asada a rodajas, al otro lado.</description>
+            </step>
+            <step>
+                <description>El aguacate laminado en el último hueco.</description>
+            </step>
+            <step>
+                <description>Y para terminar el humus de remolacha en el centro, donde esta vez hará la función de salsa del plato (con su base de tahini)</description>
+            </step>
+            <step>
+                <description>Decoramos con semillas de sésamo (a poder ser trituradas para aprovechar totalmente su calcio)</description>
+            </step>
+        </steps>
+    </recipe>
+
+    <recipe>
+        <title>A Pedra</title>
+        <imagen>a-pedra.jpg</imagen>
+        <ingredients>
+            <ingredient>
+                <name>Puro músculo</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>Llevar la misma ropa en todas las películas</name>
+                <quantity></quantity>
+            </ingredient>
+            <ingredient>
+                <name>Levantar la ceja con estilo así como nike</name>
+                <quantity></quantity>
+            </ingredient>
+        </ingredients>
+        <steps>
+            <step>
+                <description>Ponerte mazadísimo.</description>
+            </step>
+            <step>
+                <description>Salir en la WWE.</description>
+            </step>
+            <step>
+                <description>Hacerte actor.</description>
+            </step>
+            <step>
+                <description>Salir en Fast and Furious.</description>
+            </step>
+            <step>
+                <description>Hacerte millonario.</description>
             </step>
         </steps>
     </recipe>
