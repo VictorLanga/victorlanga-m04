@@ -34,14 +34,14 @@
                 </nav>
             </header>
 
-            <ol>
-                <xsl:for-each select="recipes/recipe">
-                    <li><xsl:value-of select="title"/></li>
-                </xsl:for-each>
-            </ol>
+           
+            <xsl:for-each select="recipes/recipe">
+                <li id="menu"><a href="#{title}"><xsl:value-of select="title"/></a></li>
+            </xsl:for-each>
+            
             
             <xsl:for-each select="recipes/recipe">
-                <hr/>
+                <hr id="{title}"/>
                 <article class="intro-receta">
                     <h1><xsl:value-of select="title"/></h1>
                     <aside class="ingredientes">
@@ -56,11 +56,9 @@
 
                 <h3>Pasos:</h3>
                 <xsl:for-each select="steps/step">
-                <ol>	
                     <li>
                         <xsl:value-of select="description"/>
                     </li>
-                </ol>
                 </xsl:for-each>
             </xsl:for-each>
 
